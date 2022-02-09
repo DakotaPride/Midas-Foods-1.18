@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "midasfoods:block/golden_nether_wart_block"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "midasfoods:block/golden_nether_wart_stage2"
+  }
+}
