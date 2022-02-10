@@ -6,6 +6,10 @@ import net.minecraft.client.render.RenderLayer;
 
 public class MidasFoodsRendererHelper {
     public static void setRenderLayers() {
+
         BlockRenderLayerMap.INSTANCE.putBlock(MidasFoodsBlocks.GOLDEN_NETHER_WART_PLANT, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(MidasFoodsBlocks.GOLDEN_POTATO_PLANT, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(MidasFoodsBlocks.GOLDEN_BEETROOT_PLANT, RenderLayer.getCutout());
+
     }
 }

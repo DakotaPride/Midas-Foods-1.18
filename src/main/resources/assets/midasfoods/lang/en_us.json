@@ -5,8 +5,15 @@
   "item.midasfoods.midas_fruit": "Midas Fruit",
 
   "item.midasfoods.golden_potato": "Golden Potato",
+  "block.midasfoods.golden_potato_plant": "Golden Potatoes",
+  "item.midasfoods.golden_baked_potato": "Golden Baked Potato",
+  "item.midasfoods.golden_poisonous_potato": "Golden Poisonous Potato",
   "item.midasfoods.golden_beetroot": "Golden Beetroot",
-  "item.midasfoods.golden_beetroot_stew": "Golden Beetroot Stew",
+  "item.midasfoods.golden_beetroot_stew": "Golden Beetroot Soup",
+  "item.midasfoods.golden_beetroot_seeds": "Golden Beetroot Seeds",
+  "block.midasfoods.golden_beetroot_plant": "Golden Beetroots",
   "item.midasfoods.golden_nether_wart": "Golden Nether Wart",
-  "block.midasfoods.golden_nether_wart_plant": "Golden Nether Wart"
+  "block.midasfoods.golden_nether_wart_plant": "Golden Nether Wart",
+  "block.midasfoods.golden_nether_wart_block": "Golden Nether Wart Block"
+
 }

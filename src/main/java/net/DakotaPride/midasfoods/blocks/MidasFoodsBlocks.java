@@ -1,7 +1,9 @@
 package net.DakotaPride.midasfoods.blocks;
 
 import net.DakotaPride.midasfoods.MidasFoods;
+import net.DakotaPride.midasfoods.blocks.custom.GoldenBeetrootPlant;
 import net.DakotaPride.midasfoods.blocks.custom.GoldenNetherWartPlant;
+import net.DakotaPride.midasfoods.blocks.custom.GoldenPotatoPlant;
 import net.DakotaPride.midasfoods.items.MidasFoodsItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -16,11 +18,16 @@ import net.minecraft.util.registry.Registry;
 public class MidasFoodsBlocks {
 
     public static final Block GOLDEN_NETHER_WART_PLANT = registerBlockWithoutBlockItem("golden_nether_wart_plant",
-            new GoldenNetherWartPlant(FabricBlockSettings.of(Material.PLANT).sounds(BlockSoundGroup.ROOTS).nonOpaque()
-                    .noCollision()), MidasFoodsItemGroup.MIDAS_FOODS);
+            new GoldenNetherWartPlant(FabricBlockSettings.copy(Blocks.NETHER_WART)), MidasFoodsItemGroup.MIDAS_FOODS);
 
     public static final Block GOLDEN_NETHER_WART_BLOCK = registerBlock("golden_nether_wart_block",
             new Block(FabricBlockSettings.copy(Blocks.NETHER_WART_BLOCK)), MidasFoodsItemGroup.MIDAS_FOODS);
+
+    public static final Block GOLDEN_POTATO_PLANT = registerBlockWithoutBlockItem("golden_potato_plant",
+            new GoldenPotatoPlant(FabricBlockSettings.copy(Blocks.POTATOES)), MidasFoodsItemGroup.MIDAS_FOODS);
+
+    public static final Block GOLDEN_BEETROOT_PLANT = registerBlockWithoutBlockItem("golden_beetroot_plant",
+            new GoldenBeetrootPlant(FabricBlockSettings.copy(Blocks.BEETROOTS)), MidasFoodsItemGroup.MIDAS_FOODS);
 
 
     public static Block registerBlock(String name, Block block, ItemGroup group) {

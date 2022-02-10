@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:golden_apple",
+    "minecraft:enchanted_golden_apple",
+    "minecraft:golden_carrot",
+
+    "midasfoods:masterful_midas_fruit",
+    "midasfoods:midas_fruit",
+    "midasfoods:golden_nether_wart",
+    "midasfoods:golden_potato",
+    "midasfoods:golden_poisonous_potato",
+    "midasfoods:golden_baked_potato",
+    "midasfoods:golden_beetroot",
+    "midasfoods:golden_beetroot_stew",
+    "midasfoods:golden_beetroot_seeds"
+  ]
+}
