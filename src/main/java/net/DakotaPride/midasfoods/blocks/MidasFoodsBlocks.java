@@ -3,12 +3,14 @@ package net.DakotaPride.midasfoods.blocks;
 import net.DakotaPride.midasfoods.MidasFoods;
 import net.DakotaPride.midasfoods.blocks.custom.*;
 import net.DakotaPride.midasfoods.items.MidasFoodsItemGroup;
+import net.DakotaPride.midasfoods.items.MidasFoodsItems;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Items;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
@@ -16,25 +18,25 @@ import net.minecraft.util.registry.Registry;
 public class MidasFoodsBlocks {
 
     public static final Block GOLDEN_NETHER_WART_PLANT = registerBlockWithoutBlockItem("golden_nether_wart_plant",
-            new GoldenNetherWartPlant(FabricBlockSettings.copy(Blocks.NETHER_WART)), MidasFoodsItemGroup.MIDAS_FOODS);
+            new GoldenNetherWartPlantBlock(FabricBlockSettings.copy(Blocks.NETHER_WART)), MidasFoodsItemGroup.MIDAS_FOODS);
 
     public static final Block GOLDEN_NETHER_WART_BLOCK = registerBlock("golden_nether_wart_block",
             new Block(FabricBlockSettings.copy(Blocks.NETHER_WART_BLOCK)), MidasFoodsItemGroup.MIDAS_FOODS);
 
     public static final Block GOLDEN_POTATO_PLANT = registerBlockWithoutBlockItem("golden_potato_plant",
-            new GoldenPotatoPlant(FabricBlockSettings.copy(Blocks.POTATOES)), MidasFoodsItemGroup.MIDAS_FOODS);
+            new GoldenPotatoPlantBlock(FabricBlockSettings.copy(Blocks.POTATOES)), MidasFoodsItemGroup.MIDAS_FOODS);
 
     public static final Block GOLDEN_BEETROOT_PLANT = registerBlockWithoutBlockItem("golden_beetroot_plant",
-            new GoldenBeetrootPlant(FabricBlockSettings.copy(Blocks.BEETROOTS)), MidasFoodsItemGroup.MIDAS_FOODS);
+            new GoldenBeetrootPlantBlock(FabricBlockSettings.copy(Blocks.BEETROOTS)), MidasFoodsItemGroup.MIDAS_FOODS);
 
     public static final Block GOLDEN_WHEAT_PLANT = registerBlockWithoutBlockItem("golden_wheat_plant",
-            new GoldenWheatPlant(FabricBlockSettings.copy(Blocks.WHEAT)), MidasFoodsItemGroup.MIDAS_FOODS);
+            new GoldenWheatPlantBlock(FabricBlockSettings.copy(Blocks.WHEAT)), MidasFoodsItemGroup.MIDAS_FOODS);
 
     public static final Block GOLDEN_HAY_BALE = registerBlock("golden_hay_bale",
             new PillarBlock(FabricBlockSettings.copy(Blocks.HAY_BLOCK)), MidasFoodsItemGroup.MIDAS_FOODS);
 
     public static final Block GOLDEN_CARROT_PLANT = registerBlockWithoutBlockItem("golden_carrot_plant",
-            new GoldenCarrotPlant(FabricBlockSettings.copy(Blocks.CARROTS)), MidasFoodsItemGroup.MIDAS_FOODS);
+            new GoldenCarrotPlantBlock(FabricBlockSettings.copy(Blocks.CARROTS)), MidasFoodsItemGroup.MIDAS_FOODS);
 
     public static final Block GOLDEN_CHORUS_PLANT = registerBlock("golden_chorus_plant",
             new GoldenChorusPlantBlock(FabricBlockSettings.copy(Blocks.CHORUS_PLANT)), MidasFoodsItemGroup.MIDAS_FOODS);
@@ -42,6 +44,19 @@ public class MidasFoodsBlocks {
     public static final Block GOLDEN_CHORUS_FLOWER = registerBlock("golden_chorus_flower",
             new GoldenChorusFlowerBlock((GoldenChorusPlantBlock)MidasFoodsBlocks.GOLDEN_CHORUS_PLANT,
                     FabricBlockSettings.copy(Blocks.CHORUS_PLANT)), MidasFoodsItemGroup.MIDAS_FOODS);
+
+    public static final Block GOLDEN_MELON_BLOCK = registerBlock("golden_melon_block",
+            new GoldenMelonBlock(FabricBlockSettings.copy(Blocks.MELON)), MidasFoodsItemGroup.MIDAS_FOODS);
+
+    public static final Block GOLDEN_MELON_STEM = registerBlockWithoutBlockItem("golden_melon_stem",
+            new MidasFoodsStemBlock((MidasFoodsGourdBlock)MidasFoodsBlocks.GOLDEN_MELON_BLOCK,
+                    () -> MidasFoodsItems.GOLDEN_MELON_SEEDS,
+                    FabricBlockSettings.copy(Blocks.MELON_STEM)), MidasFoodsItemGroup.MIDAS_FOODS);
+
+    public static final Block ATTACHED_GOLDEN_MELON_STEM = registerBlockWithoutBlockItem("attached_golden_melon_stem",
+            new MidasFoodsAttachedStemBlock((MidasFoodsGourdBlock)MidasFoodsBlocks.GOLDEN_MELON_BLOCK,
+                    () -> MidasFoodsItems.GOLDEN_MELON_SEEDS,
+                    FabricBlockSettings.copy(Blocks.ATTACHED_MELON_STEM)), MidasFoodsItemGroup.MIDAS_FOODS);
 
 
     public static Block registerBlock(String name, Block block, ItemGroup group) {

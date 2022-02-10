@@ -4,8 +4,8 @@ import net.minecraft.block.CarrotsBlock;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 
-public class GoldenCarrotPlant extends CarrotsBlock {
-    public GoldenCarrotPlant(Settings settings) {
+public class GoldenCarrotPlantBlock extends CarrotsBlock {
+    public GoldenCarrotPlantBlock(Settings settings) {
         super(settings);
     }
 

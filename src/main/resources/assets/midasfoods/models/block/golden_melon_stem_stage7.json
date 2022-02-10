@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/stem_growth7",
+  "textures": {
+    "stem": "midasfoods:block/golden_melon_stem"
+  }
+}

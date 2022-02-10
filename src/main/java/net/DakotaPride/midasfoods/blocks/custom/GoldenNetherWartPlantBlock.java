@@ -8,8 +8,8 @@ import net.minecraft.item.Items;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.BlockView;
 
-public class GoldenNetherWartPlant extends NetherWartBlock {
-    public GoldenNetherWartPlant(Settings settings) {
+public class GoldenNetherWartPlantBlock extends NetherWartBlock {
+    public GoldenNetherWartPlantBlock(Settings settings) {
         super(settings);
     }
 

@@ -23,6 +23,11 @@
   "block.midasfoods.golden_carrot_plant": "Golden Carrot",
   "block.midasfoods.golden_chorus_flower": "Golden Chorus Flower",
   "block.midasfoods.golden_chorus_plant": "Golden Chorus Plant",
-  "item.midasfoods.golden_chorus_fruit": "Golden Chorus Fruit"
+  "item.midasfoods.golden_chorus_fruit": "Golden Chorus Fruit",
+  "item.midasfoods.golden_melon_slice": "Golden Melon Slice",
+  "item.midasfoods.golden_melon_seeds": "Golden Melon Seeds",
+  "block.midasfoods.golden_melon_block": "Golden Melon",
+  "block.midasfoods.golden_melon_stem": "Golden Melon Stem",
+  "block.midasfoods.attached_golden_melon_stem": "Attached Golden Melon Stem"
 
 }

@@ -11,6 +11,9 @@
     "midasfoods:golden_wheat_plant",
     "midasfoods:golden_beetroot_plant",
     "midasfoods:golden_nether_wart_block",
-    "midasfoods:golden_nether_wart_plant"
+    "midasfoods:golden_nether_wart_plant",
+    "midasfoods:golden_melon_block",
+    "midasfoods:golden_melon_stem",
+    "midasfoods:attached_golden_melon_stem"
   ]
 }

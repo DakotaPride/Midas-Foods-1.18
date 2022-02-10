@@ -7,4 +7,5 @@ public class GoldenChorusFlowerBlock extends ChorusFlowerBlock {
     public GoldenChorusFlowerBlock(ChorusPlantBlock plantBlock, Settings settings) {
         super(plantBlock, settings);
     }
+
 }
