@@ -14,6 +14,15 @@
   "block.midasfoods.golden_beetroot_plant": "Golden Beetroots",
   "item.midasfoods.golden_nether_wart": "Golden Nether Wart",
   "block.midasfoods.golden_nether_wart_plant": "Golden Nether Wart",
-  "block.midasfoods.golden_nether_wart_block": "Golden Nether Wart Block"
+  "block.midasfoods.golden_nether_wart_block": "Golden Nether Wart Block",
+  "item.midasfoods.golden_wheat": "Golden Wheat",
+  "item.midasfoods.golden_bread": "Golden Bread",
+  "block.midasfoods.golden_hay_bale": "Golden Hay Bale",
+  "block.midasfoods.golden_wheat_plant": "Golden Wheat",
+  "item.midasfoods.golden_wheat_seeds": "Golden Wheat Seeds",
+  "block.midasfoods.golden_carrot_plant": "Golden Carrot",
+  "block.midasfoods.golden_chorus_flower": "Golden Chorus Flower",
+  "block.midasfoods.golden_chorus_plant": "Golden Chorus Plant",
+  "item.midasfoods.golden_chorus_fruit": "Golden Chorus Fruit"
 
 }

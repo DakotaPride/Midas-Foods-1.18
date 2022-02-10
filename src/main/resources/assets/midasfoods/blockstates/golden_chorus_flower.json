@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "midasfoods:block/golden_chorus_flower"
+    },
+    "age=1": {
+      "model": "midasfoods:block/golden_chorus_flower"
+    },
+    "age=2": {
+      "model": "midasfoods:block/golden_chorus_flower"
+    },
+    "age=3": {
+      "model": "midasfoods:block/golden_chorus_flower"
+    },
+    "age=4": {
+      "model": "midasfoods:block/golden_chorus_flower"
+    },
+    "age=5": {
+      "model": "midasfoods:block/golden_chorus_flower_dead"
+    }
+  }
+}

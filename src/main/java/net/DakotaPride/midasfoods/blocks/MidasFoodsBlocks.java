@@ -1,9 +1,7 @@
 package net.DakotaPride.midasfoods.blocks;
 
 import net.DakotaPride.midasfoods.MidasFoods;
-import net.DakotaPride.midasfoods.blocks.custom.GoldenBeetrootPlant;
-import net.DakotaPride.midasfoods.blocks.custom.GoldenNetherWartPlant;
-import net.DakotaPride.midasfoods.blocks.custom.GoldenPotatoPlant;
+import net.DakotaPride.midasfoods.blocks.custom.*;
 import net.DakotaPride.midasfoods.items.MidasFoodsItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -28,6 +26,22 @@ public class MidasFoodsBlocks {
 
     public static final Block GOLDEN_BEETROOT_PLANT = registerBlockWithoutBlockItem("golden_beetroot_plant",
             new GoldenBeetrootPlant(FabricBlockSettings.copy(Blocks.BEETROOTS)), MidasFoodsItemGroup.MIDAS_FOODS);
+
+    public static final Block GOLDEN_WHEAT_PLANT = registerBlockWithoutBlockItem("golden_wheat_plant",
+            new GoldenWheatPlant(FabricBlockSettings.copy(Blocks.WHEAT)), MidasFoodsItemGroup.MIDAS_FOODS);
+
+    public static final Block GOLDEN_HAY_BALE = registerBlock("golden_hay_bale",
+            new PillarBlock(FabricBlockSettings.copy(Blocks.HAY_BLOCK)), MidasFoodsItemGroup.MIDAS_FOODS);
+
+    public static final Block GOLDEN_CARROT_PLANT = registerBlockWithoutBlockItem("golden_carrot_plant",
+            new GoldenCarrotPlant(FabricBlockSettings.copy(Blocks.CARROTS)), MidasFoodsItemGroup.MIDAS_FOODS);
+
+    public static final Block GOLDEN_CHORUS_PLANT = registerBlock("golden_chorus_plant",
+            new GoldenChorusPlantBlock(FabricBlockSettings.copy(Blocks.CHORUS_PLANT)), MidasFoodsItemGroup.MIDAS_FOODS);
+
+    public static final Block GOLDEN_CHORUS_FLOWER = registerBlock("golden_chorus_flower",
+            new GoldenChorusFlowerBlock((GoldenChorusPlantBlock)MidasFoodsBlocks.GOLDEN_CHORUS_PLANT,
+                    FabricBlockSettings.copy(Blocks.CHORUS_PLANT)), MidasFoodsItemGroup.MIDAS_FOODS);
 
 
     public static Block registerBlock(String name, Block block, ItemGroup group) {

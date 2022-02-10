@@ -10,6 +10,10 @@ public class MidasFoodsRendererHelper {
         BlockRenderLayerMap.INSTANCE.putBlock(MidasFoodsBlocks.GOLDEN_NETHER_WART_PLANT, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(MidasFoodsBlocks.GOLDEN_POTATO_PLANT, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(MidasFoodsBlocks.GOLDEN_BEETROOT_PLANT, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(MidasFoodsBlocks.GOLDEN_WHEAT_PLANT, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(MidasFoodsBlocks.GOLDEN_CARROT_PLANT, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(MidasFoodsBlocks.GOLDEN_CHORUS_PLANT, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(MidasFoodsBlocks.GOLDEN_CHORUS_FLOWER, RenderLayer.getCutout());
 
     }
 }

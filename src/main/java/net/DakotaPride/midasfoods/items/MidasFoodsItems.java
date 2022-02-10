@@ -2,6 +2,7 @@ package net.DakotaPride.midasfoods.items;
 
 import net.DakotaPride.midasfoods.MidasFoods;
 import net.DakotaPride.midasfoods.blocks.MidasFoodsBlocks;
+import net.DakotaPride.midasfoods.items.custom.GoldenChorusFruitItem;
 import net.DakotaPride.midasfoods.items.custom.MasterfulMidasFruitItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.entity.effect.StatusEffectInstance;
@@ -53,7 +54,22 @@ public class MidasFoodsItems {
 
     public static final Item GOLDEN_BEETROOT_STEW = registerItem("golden_beetroot_stew",
             new StewItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(8)
-                    .saturationModifier(0.0f).build()).group(MidasFoodsItemGroup.MIDAS_FOODS)));
+                    .saturationModifier(0.0f).build()).maxCount(1).group(MidasFoodsItemGroup.MIDAS_FOODS)));
+
+    public static final Item GOLDEN_BREAD = registerItem("golden_bread",
+            new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5)
+                    .saturationModifier(0.6f).build()).group(MidasFoodsItemGroup.MIDAS_FOODS)));
+
+    public static final Item GOLDEN_WHEAT = registerItem("golden_wheat",
+            new Item(new FabricItemSettings().group(MidasFoodsItemGroup.MIDAS_FOODS)));
+
+    public static final Item GOLDEN_WHEAT_SEEDS = registerItem("golden_wheat_seeds",
+            new AliasedBlockItem(MidasFoodsBlocks.GOLDEN_WHEAT_PLANT,
+                    new FabricItemSettings().group(MidasFoodsItemGroup.MIDAS_FOODS)));
+
+    public static final Item GOLDEN_CHORUS_FRUIT = registerItem("golden_chorus_fruit",
+            new GoldenChorusFruitItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5)
+                    .saturationModifier(0.4f).alwaysEdible().build()).group(MidasFoodsItemGroup.MIDAS_FOODS)));
 
 
     private static Item registerItem (String name, Item item) {

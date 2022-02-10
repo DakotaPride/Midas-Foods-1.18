@@ -1,0 +1,6 @@
+{
+  "parent": "midasfoods:block/golden_template_chorus_flower",
+  "textures": {
+    "texture": "midasfoods:block/golden_chorus_flower_dead"
+  }
+}
