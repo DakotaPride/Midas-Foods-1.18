@@ -7,7 +7,8 @@
   ],
   "client": [
     "MidasFoodsMixin",
-    "ItemMixin"
+    "ItemMixin",
+    "TitleScreenMixin"
   ],
   "injectors": {
     "defaultRequire": 1
