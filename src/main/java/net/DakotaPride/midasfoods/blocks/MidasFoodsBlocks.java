@@ -58,6 +58,25 @@ public class MidasFoodsBlocks {
                     () -> MidasFoodsItems.GOLDEN_MELON_SEEDS,
                     FabricBlockSettings.copy(Blocks.ATTACHED_MELON_STEM)), MidasFoodsItemGroup.MIDAS_FOODS);
 
+    public static final Block GOLDEN_PUMPKIN_BLOCK = registerBlock("golden_pumpkin_block",
+            new GoldenPumpkinBlock(FabricBlockSettings.copy(Blocks.MELON)), MidasFoodsItemGroup.MIDAS_FOODS);
+
+    public static final Block CARVED_GOLDEN_PUMPKIN_BLOCK = registerBlock("carved_golden_pumpkin_block",
+            new CarvedGoldenPumpkinBlock(FabricBlockSettings.copy(Blocks.CARVED_PUMPKIN)), MidasFoodsItemGroup.MIDAS_FOODS);
+
+    public static final Block GOLD_O_LANTERN = registerBlock("gold_o_lantern",
+            new CarvedGoldenPumpkinBlock(FabricBlockSettings.copy(Blocks.JACK_O_LANTERN)), MidasFoodsItemGroup.MIDAS_FOODS);
+
+    public static final Block GOLDEN_PUMPKIN_STEM = registerBlockWithoutBlockItem("golden_pumpkin_stem",
+            new MidasFoodsStemBlock((MidasFoodsGourdBlock)MidasFoodsBlocks.GOLDEN_PUMPKIN_BLOCK,
+                    () -> MidasFoodsItems.GOLDEN_PUMPKIN_SEEDS,
+                    FabricBlockSettings.copy(Blocks.PUMPKIN_STEM)), MidasFoodsItemGroup.MIDAS_FOODS);
+
+    public static final Block ATTACHED_GOLDEN_PUMPKIN_STEM = registerBlockWithoutBlockItem("attached_pumpkin_melon_stem",
+            new MidasFoodsAttachedStemBlock((MidasFoodsGourdBlock)MidasFoodsBlocks.GOLDEN_PUMPKIN_BLOCK,
+                    () -> MidasFoodsItems.GOLDEN_PUMPKIN_SEEDS,
+                    FabricBlockSettings.copy(Blocks.ATTACHED_PUMPKIN_STEM)), MidasFoodsItemGroup.MIDAS_FOODS);
+
 
     public static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

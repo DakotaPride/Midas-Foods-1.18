@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "midasfoods:block/carved_golden_pumpkin_block",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "midasfoods:block/carved_golden_pumpkin_block"
+    },
+    "facing=south": {
+      "model": "midasfoods:block/carved_golden_pumpkin_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "midasfoods:block/carved_golden_pumpkin_block",
+      "y": 270
+    }
+  }
+}

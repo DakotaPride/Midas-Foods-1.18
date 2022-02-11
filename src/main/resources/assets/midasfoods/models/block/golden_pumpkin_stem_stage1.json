@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/stem_growth1",
+  "textures": {
+    "stem": "midasfoods:block/golden_pumpkin_stem"
+  }
+}

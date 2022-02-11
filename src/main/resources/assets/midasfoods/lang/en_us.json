@@ -28,6 +28,12 @@
   "item.midasfoods.golden_melon_seeds": "Golden Melon Seeds",
   "block.midasfoods.golden_melon_block": "Golden Melon",
   "block.midasfoods.golden_melon_stem": "Golden Melon Stem",
-  "block.midasfoods.attached_golden_melon_stem": "Attached Golden Melon Stem"
+  "block.midasfoods.attached_golden_melon_stem": "Attached Golden Melon Stem",
+  "block.midasfoods.golden_pumpkin_block": "Golden Pumpkin",
+  "block.midasfoods.golden_pumpkin_stem": "Golden Pumpkin Stem",
+  "block.midasfoods.attached_golden_pumpkin_stem": "Attached Golden Pumpkin Stem",
+  "item.midasfoods.golden_pumpkin_seeds": "Golden Pumpkin Seeds",
+  "block.midasfoods.carved_golden_pumpkin_block": "Carved Golden Pumpkin Block",
+  "block.midasfoods.gold_o_lantern": "Gold o'Lantern"
 
 }

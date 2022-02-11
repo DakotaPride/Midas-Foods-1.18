@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "midasfoods:golden_melon_block",
+    "midasfoods:golden_chorus_plant",
+    "midasfoods:golden_chorus_flower",
+    "midasfoods:golden_pumpkin_block",
+    "midasfoods:carved_golden_pumpkin_block",
+    "midasfoods:gold_o_lantern"
+  ]
+}

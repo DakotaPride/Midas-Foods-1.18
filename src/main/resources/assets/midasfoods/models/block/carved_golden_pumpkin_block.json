@@ -1,0 +1,8 @@
+{
+  "parent": "block/orientable",
+  "textures": {
+    "top": "midasfoods:block/golden_pumpkin_top",
+    "front": "midasfoods:block/carved_golden_pumpkin_block",
+    "side": "midasfoods:block/golden_pumpkin_side"
+  }
+}

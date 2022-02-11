@@ -75,9 +75,17 @@ public class MidasFoodsItems {
             new AliasedBlockItem(MidasFoodsBlocks.GOLDEN_MELON_STEM,
                     new FabricItemSettings().group(MidasFoodsItemGroup.MIDAS_FOODS)));
 
+    public static final Item GOLDEN_PUMPKIN_SEEDS = registerItem("golden_pumpkin_seeds",
+            new AliasedBlockItem(MidasFoodsBlocks.GOLDEN_PUMPKIN_STEM,
+                    new FabricItemSettings().group(MidasFoodsItemGroup.MIDAS_FOODS)));
+
     public static final Item GOLDEN_CHORUS_FRUIT = registerItem("golden_chorus_fruit",
             new GoldenChorusFruitItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(5)
                     .saturationModifier(0.4f).alwaysEdible().build()).group(MidasFoodsItemGroup.MIDAS_FOODS)));
+
+    public static final Item GOLDEN_COOKIE = registerItem("golden_cookie",
+            new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3)
+                    .saturationModifier(0.3f).build()).group(MidasFoodsItemGroup.MIDAS_FOODS)));
 
 
     private static Item registerItem (String name, Item item) {

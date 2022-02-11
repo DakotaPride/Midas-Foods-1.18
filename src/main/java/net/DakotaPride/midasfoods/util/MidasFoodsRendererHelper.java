@@ -16,6 +16,8 @@ public class MidasFoodsRendererHelper {
         BlockRenderLayerMap.INSTANCE.putBlock(MidasFoodsBlocks.GOLDEN_CHORUS_FLOWER, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(MidasFoodsBlocks.GOLDEN_MELON_STEM, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(MidasFoodsBlocks.ATTACHED_GOLDEN_MELON_STEM, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(MidasFoodsBlocks.GOLDEN_PUMPKIN_STEM, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(MidasFoodsBlocks.ATTACHED_GOLDEN_PUMPKIN_STEM, RenderLayer.getCutout());
 
     }
 }
