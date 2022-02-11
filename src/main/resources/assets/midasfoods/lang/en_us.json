@@ -34,6 +34,10 @@
   "block.midasfoods.attached_golden_pumpkin_stem": "Attached Golden Pumpkin Stem",
   "item.midasfoods.golden_pumpkin_seeds": "Golden Pumpkin Seeds",
   "block.midasfoods.carved_golden_pumpkin_block": "Carved Golden Pumpkin Block",
-  "block.midasfoods.gold_o_lantern": "Gold o'Lantern"
+  "block.midasfoods.gold_o_lantern": "Gold o'Lantern",
+  "item.midasfoods.golden_cookie": "Golden Cookie",
+  "item.midasfoods.dried_golden_kelp": "Dried Golden Kelp",
+  "item.midasfoods.golden_kelp": "Golden Kelp",
+  "block.midasfoods.dried_golden_kelp_block": "Dried Golden Kelp Block"
 
 }

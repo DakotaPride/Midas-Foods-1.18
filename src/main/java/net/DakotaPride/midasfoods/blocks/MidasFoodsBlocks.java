@@ -77,11 +77,14 @@ public class MidasFoodsBlocks {
                     () -> MidasFoodsItems.GOLDEN_PUMPKIN_SEEDS,
                     FabricBlockSettings.copy(Blocks.ATTACHED_PUMPKIN_STEM)), MidasFoodsItemGroup.MIDAS_FOODS);
 
-    public static final Block GOLDEN_KELP_BLOCK = registerBlock("golden_kelp_block",
+    public static final Block GOLDEN_KELP_BLOCK = registerBlockWithoutBlockItem("golden_kelp_block",
             new GoldenKelpBlock(FabricBlockSettings.copy(Blocks.KELP)), MidasFoodsItemGroup.MIDAS_FOODS);
 
     public static final Block GOLDEN_KELP_PLANT = registerBlockWithoutBlockItem("golden_kelp_plant",
             new GoldenKelpPlantBlock(FabricBlockSettings.copy(Blocks.KELP_PLANT)), MidasFoodsItemGroup.MIDAS_FOODS);
+
+    public static final Block DRIED_GOLDEN_KELP_BLOCK = registerBlock("dried_golden_kelp_block",
+            new Block(FabricBlockSettings.copy(Blocks.DRIED_KELP_BLOCK)), MidasFoodsItemGroup.MIDAS_FOODS);
 
 
     public static Block registerBlock(String name, Block block, ItemGroup group) {

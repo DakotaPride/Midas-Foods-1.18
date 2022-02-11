@@ -6,7 +6,8 @@
   "mixins": [
   ],
   "client": [
-    "MidasFoodsMixin"
+    "MidasFoodsMixin",
+    "ItemMixin"
   ],
   "injectors": {
     "defaultRequire": 1

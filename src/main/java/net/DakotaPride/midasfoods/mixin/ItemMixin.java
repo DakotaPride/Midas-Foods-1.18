@@ -1,8 +1,9 @@
 package net.DakotaPride.midasfoods.mixin;
 
 import net.minecraft.item.Items;
+import net.minecraft.util.registry.Registry;
 import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.injection.At;
+import org.spongepowered.asm.mixin.Overwrite;
 import org.spongepowered.asm.mixin.injection.Inject;
 
 
@@ -15,6 +16,5 @@ public abstract class ItemMixin {
 
     // As well as 'Item' needs to be changed to
     // AliasedBlockItem
-
 
 }
