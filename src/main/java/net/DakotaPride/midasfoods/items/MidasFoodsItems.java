@@ -87,6 +87,14 @@ public class MidasFoodsItems {
             new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(3)
                     .saturationModifier(0.3f).build()).group(MidasFoodsItemGroup.MIDAS_FOODS)));
 
+    public static final Item DRIED_GOLDEN_KELP = registerItem("dried_golden_kelp",
+            new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(2)
+                    .saturationModifier(0.4f).snack().build()).group(MidasFoodsItemGroup.MIDAS_FOODS)));
+
+    public static final Item GOLDEN_KELP = registerItem("golden_kelp",
+            new AliasedBlockItem(MidasFoodsBlocks.GOLDEN_KELP_BLOCK,
+                    new FabricItemSettings().group(MidasFoodsItemGroup.MIDAS_FOODS)));
+
 
     private static Item registerItem (String name, Item item) {
     return Registry.register(Registry.ITEM, new Identifier(MidasFoods.MOD_ID, name), item);

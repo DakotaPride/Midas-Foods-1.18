@@ -33,7 +33,7 @@ public class CarvedGoldenPumpkinBlock extends CarvedPumpkinBlock implements Wear
     }
 
     @Override
-    protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
+    public void appendProperties(StateManager.Builder<Block, BlockState> builder) {
         builder.add(FACING);
     }
 
